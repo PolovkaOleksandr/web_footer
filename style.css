@@ -1,0 +1,361 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+	text-decoration: none;
+}
+/*fonts*/
+@font-face {
+	font-family: 'Raleway-Bold';
+	src: url(./assets/fonts/Raleway-Bold.ttf);
+}
+@font-face {
+	font-family: 'Roboto-Bold';
+	src: url(./assets/fonts/Roboto-Bold.ttf);
+}
+/*style*/
+
+.footer_content{
+	display: flex;
+}
+.footer_social_media_list_item:hover{
+    background-color: #2196F3;
+}
+.footer_div_subscribe{
+	background-color:#2196F3;
+	display: flex;
+	
+}
+.footer_social_media_list{
+	display: flex;
+}
+.footer_social_media_list_item{
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	
+}
+.footer_social_media_img{
+    padding: 12px 12px;
+}
+.footer_text_input{
+	font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+color:white;
+}
+.footer_input{
+	width: 358px;
+height: 50px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+}
+.footer_text_subscribe_and_input{
+	font-family: 'Roboto-Bold';
+font-style: normal;
+font-weight: 700;
+	font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.footer_logo{
+	font-family: 'Raleway-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+letter-spacing: 0.03em;
+color: #2196F3;
+}
+.footer_span_logo{
+	font-family: 'Raleway-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 31px;
+
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+}
+.footer{
+	width: 1600px;
+height: 252px;
+background-color: #2F303A;
+}
+.footer_text_input{
+	margin-right: 10px;
+}
+.footer_div_input{
+	background-color: #2F303A;
+}
+.footer_input{
+	background-color:#2F303A;
+}
+.footer_input_and_subscribe{
+	display: flex;
+}
+.footer_gmail{
+	font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+display: block;
+}
+.footer_tell{
+	font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+display: block;
+}
+.footer_logo{
+	margin-bottom: 20px;
+	
+}
+.footer_info{
+	margin-right: 70px;
+}
+.footer_social_media{
+	margin-right: 93px;
+}
+.footer_text_subscribe{
+	font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+
+color: #FFFFFF;
+}
+.footer_div_subscribe{
+	width: 200px;
+height: 50px;
+
+
+background: #2196F3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+border-radius: 4px;
+}
+.telegram{
+	width: 24px;
+	height: 24px;
+}
+.footer_adresa{
+	font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+/* or 171% */
+
+letter-spacing: 0.03em;
+
+color: #FFFFFF;
+
+
+}
+.footer_join{
+	font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+/*margin-top: 12px;*/
+}
+.footer_text_subscribe_and_input{
+	font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+	/*margin-top: 12px;*/
+}
+/*.footer_div_logo{
+	padding-top: 60px;
+}*/
+.footer_div_subscribe{
+	width: 144px;
+height: 30px;
+padding:10px 28px;
+}
+.footer_social_media{
+	width: 206px;
+height: 80px;
+}
+.footer_social_media_list_item{
+	background: rgba(255, 255, 255, 0.1);
+	
+}
+.footer_social_media_list_item:not(:last-child){
+	margin-right: 10px;
+}
+.footer_text_subscribe_and_input{
+	margin-bottom: 20px;
+}
+.footer_div_input{
+	margin-right: 12px;
+}
+.footer{
+	padding: 60px 215px;
+}
+.footer_join{
+	margin-bottom: 20px;
+}
+.footer_social_media{
+	padding-top: 12px;
+}
+.footer_subscribe{
+	padding-top: 12px;
+}
+.footer_text_subscribe{
+	margin-right: 12px;
+}
+@media (max-width:1199px){
+	.footer{
+		width: 768px;
+		height: 463px;
+		padding: 62px 82px;
+	}
+    .footer_input_and_subscribe{
+		display: block;
+	}
+	.footer_content{
+		display:grid;
+		grid-template-columns: 397px 206px;
+		grid-template-rows: 167px 156px;
+	}
+	.footer_subscribe{
+		margin-left: 90px;
+		width: 450px;
+height: 156px;
+	}
+	.footer_text_subscribe_and_input{
+		margin-left: 122px;
+		width: 207px;
+height: 16px;
+margin-bottom: 20px;
+font-family: 'Roboto-Bold';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-align: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+	}
+	.footer_div_subscribe{
+		margin-left: 125px;
+		margin-top: 20px;
+	}
+	.footer_input{
+		width: 450px;
+height: 50px;
+	}
+}
+@media (max-width:767px){
+	.footer{
+		width: 450px;
+height: 4790px;
+padding: 60px 15px;
+	}
+	.footer_content{
+		display: flex;
+		flex-direction: column;
+		
+	}
+	.footer_subscribe{
+		margin-left: 90px;
+		width: 450px;
+height: 156px;
+	}
+	.footer_text_subscribe_and_input{
+		margin-bottom: 20px;
+	
+
+	}
+	
+	.footer_input{
+		width: 450px;
+height: 50px;
+
+	}
+	.footer_div_input{
+		width: 450px;
+height: 50px;
+
+	}
+	
+	.footer_info{
+        margin: 0 auto;
+        text-align: center;
+    }
+	.footer_social_media{
+        margin: 0 auto;
+        text-align: center;
+    }
+	.footer_subscribe{
+        margin: 0 auto;
+        text-align: center;
+    }
+}
